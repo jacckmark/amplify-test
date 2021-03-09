@@ -1,10 +1,17 @@
 {
   "auth": {
-    "amplifyauthc2b78cc2": {
+    "amplifyauthtestf535d6fc": {
       "service": "Cognito",
       "providerPlugin": "awscloudformation",
       "dependsOn": [],
       "customAuth": false
+    }
+  },
+  "hosting": {
+    "amplifyhosting": {
+      "service": "amplifyhosting",
+      "providerPlugin": "awscloudformation",
+      "type": "manual"
     }
   }
 }
